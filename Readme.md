@@ -29,3 +29,7 @@
 
 7. After compilation the JS code created is the optimized code remove uncessary varaibles and methods 
 8. All JS is a valid typescript file
+9. Interface are custom type which is only used for type checking during compilation and is never used in run time environment
+10. <b><em>extends</em></b> keyword is used to extend the interface of other type
+11. <b>Alias</b> is used alias for any data type
+12. <b>enum</b> is a type used for the field which can have value only in the provided set
