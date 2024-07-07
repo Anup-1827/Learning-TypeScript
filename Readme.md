@@ -21,8 +21,8 @@
 <li>OutDir:- build --> New Folder will be created that has all the compiled JS file from JS </li>
 <li>target:- default "ES3" | "ES6" or "esnext"</li>
 <li>noEmit:- true --> Allows type script to only allow <b>type-checking</b>. It prevents typescript to compile code into JS. This make room for other another tool like <em>Bable</em>and<em>swc</em> to convert TypeScript into a file which can run inside JS environment</li>
-<li><em>"allowJs": true, "checkJs": true</em>--> Allows to compiling existing .JS file and .ts file. Allows type-checking for all the existing .js and .ts file</li>
-<li></li>
+<li><em>"checkJs": true</em>--> Allows type checking in JS file</li>
+<li><em>"allowJs": true</em>--> Allows to add JS file in side JS file with any extension of .ts ot .tsx file</li>
 <li></li>
 <!-- <li></li> -->
 </ul>
@@ -33,3 +33,8 @@
 10. <b><em>extends</em></b> keyword is used to extend the interface of other type
 11. <b>Alias</b> is used alias for any data type
 12. <b>enum</b> is a type used for the field which can have value only in the provided set
+13. <b>Partial</b> keyword add property to our type as optional
+14. <b>Omit</b> keyword allows us to omit certain properties from defined type. It takes two parameter, first in the type and second is the properties to be omitted from the type <em>Omit<\AddressType, "line2" | "pincode"></em>
+15. <b>Pick</b> is used to pick the particular property of any type  
+16. <b>Required</b> is used to make all properties compulsary
+17.s
