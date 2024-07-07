@@ -60,3 +60,11 @@ function createNewEmployee(source: EmployeeType | string): EmployeeType{
         }
     }
 }
+
+// Indexed access Type
+interface EmployeeStatusChanged{
+    oldStaus: EmployeeType["status"]
+    newStaus: EmployeeType["status"]
+}
+
+// Drill down into properties of Propterties
