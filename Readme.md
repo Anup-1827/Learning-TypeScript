@@ -37,4 +37,12 @@
 14. <b>Omit</b> keyword allows us to omit certain properties from defined type. It takes two parameter, first in the type and second is the properties to be omitted from the type <em>Omit<\AddressType, "line2" | "pincode"></em>
 15. <b>Pick</b> is used to pick the particular property of any type  
 16. <b>Required</b> is used to make all properties compulsary
-17.s
+
+<h2>Decorators</h2>
+<ul>
+<ol>Imagine Decorators in typescript as stickers you can put on objects, methods or properties in your code</ol>
+<ol>Decorators add extra features or information without changing the orignal item</ol>
+<ol>npm i reflect-metadata --save</ol>
+<ol><b> "experimentalDecorators": true, 
+        "emitDecoratorMetadata": true</b></ol>
+</ul>

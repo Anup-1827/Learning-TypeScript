@@ -4,6 +4,8 @@
         "checkJs": true,
         "outDir": "build",
         "target": "ES6",
+        "experimentalDecorators": true, 
+        "emitDecoratorMetadata": true
         // "noEmit": true
     },
     "include": ["src/**/*"]
